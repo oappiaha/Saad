@@ -108,6 +108,7 @@ body {
     font-size: 0.5625rem;
     position: relative;
     top: -1px;
+    font-family: Galaxy;
 }
 @media (min-width: 64em) {
     .rk-logo {
@@ -116,6 +117,7 @@ body {
         -ms-flex: 1;
         flex: 1;
         text-align: left;
+        font-family: Galaxy;
     }
 }
 

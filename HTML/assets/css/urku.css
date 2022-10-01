@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: Galaxy;
-    src: url("../fonts/SF Distant Galaxy.ttf");
+    src: url("../fonts/Akira Expanded Demo.otf");
 }
 
 .rk-container {
@@ -104,6 +104,7 @@ body {
     width: 20%;
     font-family: Galaxy;
 }
+
 .rk-logo sup {
     font-size: 0.5625rem;
     position: relative;
@@ -2133,7 +2134,7 @@ body {
 }
 .rk-menu__link {
     padding-bottom: 4.2rem;
-    font-size: 11px;
+    font-size: 12.5px;
 }
 .rk-menu__sub {
     background-color: white;

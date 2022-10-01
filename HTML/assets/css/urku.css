@@ -2377,3 +2377,15 @@ body {
     flex-basis: 100%;
     flex: 1;
 }
+
+@media screen and (max-width: 500px) {
+    .about-row {
+        /* display: flex;
+        flex-direction: row; */
+    }
+
+    .about-column {
+        display: flex;
+        flex-direction: row;
+    }
+}

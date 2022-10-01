@@ -2380,12 +2380,15 @@ body {
 
 @media screen and (max-width: 500px) {
     .about-row {
-        /* display: flex;
-        flex-direction: row; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 1.5em;
     }
 
     .about-column {
-        display: flex;
+        display: contents;
         flex-direction: row;
     }
 }

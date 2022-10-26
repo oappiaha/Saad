@@ -60,7 +60,7 @@ body {
 .rk-header {
     background-color: #fff;
     position: relative;
-    z-index: 5;
+    z-index: 3;
 }
 .top-fixed .rk-header {
     position: fixed;
@@ -82,8 +82,9 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-bottom: 1.5rem;
-    padding-top: 2.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1.8rem;
+    margin-top: 0;
 }
 @media (min-width: 64em) {
     .rk-topbar {
@@ -2133,7 +2134,7 @@ body {
     color: #a0a0a0;
 }
 .rk-menu__link {
-    padding-bottom: 4.2rem;
+    padding-bottom: 3rem;
     font-size: 12.5px;
 }
 .rk-menu__sub {
@@ -2146,7 +2147,8 @@ body {
     -ms-transform: translateY(-1em);
     transform: translateY(-1em);
     opacity: 0;
-    top: 100%;
+    top: 50%;
+    height: 50%;
     -webkit-transition: 0.3s;
     transition: 0.3s;
     position: absolute;

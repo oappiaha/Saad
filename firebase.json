@@ -1,12 +1,16 @@
 {
-    "hosting": {
-        "public": "HTML",
-        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-        "rewrites": [
-            {
-                "source": "**",
-                "destination": "/HTML/index.html"
-            }
-        ]
-    }
+  "hosting": {
+    "public": "HTML",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/HTML/index.html"
+      }
+    ]
+  }
 }

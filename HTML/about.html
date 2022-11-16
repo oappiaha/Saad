@@ -21,6 +21,21 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         /> -->
     </head>
+    <style>
+        body {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
     <body class="top-fixed">
         <header class="ae-container-fluid ae-container-fluid--full rk-header">
             <input type="checkbox" id="mobile-menu" class="rk-mobile-menu" />
@@ -63,7 +78,7 @@
                         </li>
 
                         <li class="rk-menu__item">
-                            <p class="rk-menu__link"
+                            <p class="rk-menu__link" id="photo"
                                 >Photography</p
                             >
                             <nav class="rk-menu__sub">

@@ -13,6 +13,21 @@
         <link rel="stylesheet" href="../assets/css/aurora-theme-base.min.css" />
         <link rel="stylesheet" href="../assets/css/urku.css" />
         <link rel="stylesheet" href="../assets/css/gif.css" />
+        <style>
+        body {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
     </head>
     <body class="top-fixed">
         <header class="ae-container-fluid ae-container-fluid--full rk-header">
@@ -58,7 +73,7 @@
                         </li>
 
                         <li class="active rk-menu__item">
-                            <p class="rk-menu__link"
+                            <p class="rk-menu__link" id="photo"
                                 >Photography</p
                             >
                             <nav class="rk-menu__sub">

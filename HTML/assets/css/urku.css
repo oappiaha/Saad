@@ -2244,6 +2244,7 @@ body {
     #mobile-menu:checked ~ .rk-topbar .rk-menu__link {
         padding-bottom: 1rem;
     }
+
     #mobile-menu:checked ~ .rk-topbar .rk-menu__sub {
         background-color: transparent;
         margin-top: -0.5rem;
@@ -2364,6 +2365,10 @@ body {
         width: 300px;
         height: 200px;
     }
+
+    #photo {
+        display: none;
+    }
 }
 
 .about-row {
@@ -2393,5 +2398,8 @@ body {
     .about-column {
         display: contents;
         flex-direction: row;
+    }
+    #photo {
+        display: none;
     }
 }
